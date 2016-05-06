@@ -955,8 +955,14 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   font-weight: 500;
   background-color: #00D066;
 }
+
+.header-14-sub .subscribe-form form .input-group .form-control:focus {
+  border-color: #00DA86;
+}
+
 @media (max-width: 480px) {
-  .header-14-sub .subscribe-form form .input-group .btn {
+  .header-14-sub .subscribe-form form .input-group .btn,
+  .header-14-sub .subscribe-form form .input-group .form-control {
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
@@ -1412,7 +1418,6 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
     line-height: 27px;
     font-size: 25px;
     font-weight: normal;
-    color: white;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: center;
   }
